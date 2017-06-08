@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         celula.vrNome.text = vrClientes[indexPath.row].nome
         celula.vrDescricao.text =  vrClientes[indexPath.row].desc
         celula.vrData.text =  String(vrClientes[indexPath.row].data)
-        //celula.vrImagem.downloadImage(url: vrClientes[indexPath.row].url_foto)
+        celula.vrImagem.downloadImage(url: vrClientes[indexPath.row].url_foto)
         
         return celula
     }

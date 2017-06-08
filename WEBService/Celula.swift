@@ -11,7 +11,7 @@ import UIKit
 class Celula: UITableViewCell
 {
    
-    @IBOutlet weak var vrImagem: UIImageView!
+    @IBOutlet weak var vrImagem: ImageThread!
     @IBOutlet weak var vrNome: UILabel!
     @IBOutlet weak var vrData: UILabel!
     @IBOutlet weak var vrDescricao: UILabel!

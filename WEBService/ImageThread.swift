@@ -40,7 +40,7 @@ class ImageThread:UIImageView
             self.filaInterface.addOperation {
                 if(data != nil && data.count > 0)
                 {
-                    self.image = UIImage(data: <#T##Data#>)
+                    self.image = UIImage(data: data)
                 }
             }
         }
