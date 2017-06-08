@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240C9CD11EE9731000306516 /* ImageThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CD01EE9731000306516 /* ImageThread.swift */; };
 		24F0D6FD1EE0343F00E83A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D6FC1EE0343F00E83A79 /* AppDelegate.swift */; };
-		24F0D6FF1EE0343F00E83A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D6FE1EE0343F00E83A79 /* ViewController.swift */; };
 		24F0D7021EE0343F00E83A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F0D7001EE0343F00E83A79 /* Main.storyboard */; };
 		24F0D7041EE0343F00E83A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F0D7031EE0343F00E83A79 /* Assets.xcassets */; };
 		24F0D7071EE0343F00E83A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F0D7051EE0343F00E83A79 /* LaunchScreen.storyboard */; };
 		24F0D7121EE0343F00E83A79 /* WEBServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D7111EE0343F00E83A79 /* WEBServiceTests.swift */; };
 		24F0D71D1EE0343F00E83A79 /* WEBServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D71C1EE0343F00E83A79 /* WEBServiceUITests.swift */; };
+		24F0D72B1EE0396B00E83A79 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D72A1EE0396B00E83A79 /* File.swift */; };
+		24F0D72D1EE03D1700E83A79 /* Celula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D72C1EE03D1700E83A79 /* Celula.swift */; };
+		24F0D72F1EE0453400E83A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0D72E1EE0453400E83A79 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240C9CD01EE9731000306516 /* ImageThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageThread.swift; sourceTree = "<group>"; };
 		24F0D6F91EE0343F00E83A79 /* WEBService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEBService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F0D6FC1EE0343F00E83A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24F0D6FE1EE0343F00E83A79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24F0D7011EE0343F00E83A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24F0D7031EE0343F00E83A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24F0D7061EE0343F00E83A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		24F0D7181EE0343F00E83A79 /* WEBServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEBServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F0D71C1EE0343F00E83A79 /* WEBServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEBServiceUITests.swift; sourceTree = "<group>"; };
 		24F0D71E1EE0343F00E83A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F0D72A1EE0396B00E83A79 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		24F0D72C1EE03D1700E83A79 /* Celula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celula.swift; sourceTree = "<group>"; };
+		24F0D72E1EE0453400E83A79 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				24F0D6FC1EE0343F00E83A79 /* AppDelegate.swift */,
-				24F0D6FE1EE0343F00E83A79 /* ViewController.swift */,
 				24F0D7001EE0343F00E83A79 /* Main.storyboard */,
 				24F0D7031EE0343F00E83A79 /* Assets.xcassets */,
 				24F0D7051EE0343F00E83A79 /* LaunchScreen.storyboard */,
 				24F0D7081EE0343F00E83A79 /* Info.plist */,
+				24F0D72A1EE0396B00E83A79 /* File.swift */,
+				24F0D72C1EE03D1700E83A79 /* Celula.swift */,
+				24F0D72E1EE0453400E83A79 /* ViewController.swift */,
+				240C9CD01EE9731000306516 /* ImageThread.swift */,
 			);
 			path = WEBService;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F0D6FF1EE0343F00E83A79 /* ViewController.swift in Sources */,
+				24F0D72D1EE03D1700E83A79 /* Celula.swift in Sources */,
+				24F0D72B1EE0396B00E83A79 /* File.swift in Sources */,
+				24F0D72F1EE0453400E83A79 /* ViewController.swift in Sources */,
+				240C9CD11EE9731000306516 /* ImageThread.swift in Sources */,
 				24F0D6FD1EE0343F00E83A79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				24F0D7231EE0344000E83A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F0D7241EE0344000E83A79 /* Build configuration list for PBXNativeTarget "WEBServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				24F0D7261EE0344000E83A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F0D7271EE0344000E83A79 /* Build configuration list for PBXNativeTarget "WEBServiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				24F0D7291EE0344000E83A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
